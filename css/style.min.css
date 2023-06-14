@@ -74,6 +74,13 @@ table {
   font-style: normal;
 }
 @font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: url("../fonts/Montserrat-LightItalic.woff2") format("woff2"), url("../fonts/Montserrat-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: light;
+}
+@font-face {
   font-family: Pecita;
   font-display: swap;
   src: url("../fonts/Pecita.woff2") format("woff2"), url("../fonts/Pecita.woff") format("woff");
@@ -11991,7 +11998,7 @@ textarea.form-control-lg {
 }
 body {
   font-family: "Montserrat";
-  background-color: #F3F6CB;
+  background-color: #FFFFFF;
 }
 
 #result, .coords {
@@ -12004,7 +12011,7 @@ body {
 
 .navbar-logo_text {
   font-family: "Pecita";
-  color: #218207;
+  color: #00935B;
   font-size: 64px;
 }
 .navbar-telegram_text {
@@ -12024,13 +12031,13 @@ body {
   height: 100px;
   border: none;
   border-radius: 48px;
-  background: #218207;
+  background: #00935B;
   font-family: "UbuntuMono";
   font-size: 32px;
   color: #ffffff;
 }
 .main-block_left button:hover {
-  background: #29a108;
+  background: #1a9868;
 }
 .main-block_right__image {
   margin-left: 100px;
@@ -12075,7 +12082,7 @@ body {
     width: 691px;
     height: 152px;
     border-radius: 100px;
-    font-size: 55px;
+    font-size: 62px;
     margin-top: 50px;
   }
   .main-block_left div {
@@ -12091,11 +12098,13 @@ body {
     text-align: center;
   }
   .main-block_right img {
-    width: 65%;
+    margin: 0;
+    width: 100% !important;
   }
   .is_mobile {
     display: flex !important;
     justify-content: center;
+    margin-top: 200px;
   }
   .is_mobile a img {
     width: 110px;
